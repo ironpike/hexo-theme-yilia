@@ -1,6 +1,14 @@
 hexo-theme-yilia
 ================
 
+这是Yilia的修改版本，具体修改如下：
+
+* 去除了Smart Menu动画里的弹跳部分
+* 删除了会导致403错误的Report模块
+* 兼容[RealFaviconGenerator](https://realfavicongenerator.net/)生成的全设备Favicon（只需放入blog根目录下的source文件夹里即可）
+
+================
+
 Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
 崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](http://litten.me/) 查看效果。           
  
