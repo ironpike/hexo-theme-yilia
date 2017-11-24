@@ -7,6 +7,8 @@ hexo-theme-yilia
 * 删除了会导致403错误的Report模块
 * 兼容[RealFaviconGenerator](https://realfavicongenerator.net/)生成的全设备Favicon（只需放入blog根目录下的source文件夹里即可）
 
+效果可以查看 [我的博客](https://blog.ironpike.net)。
+
 ================
 
 Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
