@@ -251,24 +251,12 @@
 
 /*弹性动画*/
 @keyframes leftIn {
-  from, 60%, 75%, 90%, to {
+  from, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
     transform: translate3d(0, 0, 0);
-  }
-
-  60% {
-    transform: translate3d(358px, 0, 0);
-  }
-
-  75% {
-    transform: translate3d(323px, 0, 0);
-  }
-
-  90% {
-    transform: translate3d(338px, 0, 0);
   }
 
   to {
@@ -277,30 +265,18 @@
 }
 
 %anmLeftIn {
-    animation-duration: .8s;
+    animation-duration: .5s;
     animation-fill-mode: both;
     animation-name: leftIn;
 }
 
 @keyframes leftOut {
-  from, 60%, 75%, 90%, to {
+  from, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
     transform: translate3d(333px, 0, 0);
-  }
-
-  60% {
-    transform: translate3d(-25px, 0, 0);
-  }
-
-  75% {
-    transform: translate3d(10px, 0, 0);
-  }
-
-  90% {
-    transform: translate3d(-5px, 0, 0);
   }
 
   to {
@@ -309,29 +285,17 @@
 }
 
 %anmLeftOut {
-    animation-duration: .8s;
+    animation-duration: .5s;
     animation-name: leftOut;
 }
 
 @keyframes smallLeftIn {
-  from, 60%, 75%, 90%, to {
+  from, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
     transform: translate3d(0, 0, 0);
-  }
-
-  60% {
-    transform: translate3d(325px, 0, 0);
-  }
-
-  75% {
-    transform: translate3d(290px, 0, 0);
-  }
-
-  90% {
-    transform: translate3d(305px, 0, 0);
   }
 
   to {
@@ -340,30 +304,18 @@
 }
 
 %anmSmallLeftIn {
-    animation-duration: .8s;
+    animation-duration: .5s;
     animation-fill-mode: both;
     animation-name: smallLeftIn;
 }
 
 @keyframes smallleftOut {
-  from, 60%, 75%, 90%, to {
+  from, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
-    transform: translate3d(333px, 0, 0);
-  }
-
-  60% {
-    transform: translate3d(-25px, 0, 0);
-  }
-
-  75% {
-    transform: translate3d(10px, 0, 0);
-  }
-
-  90% {
-    transform: translate3d(-5px, 0, 0);
+    transform: translate3d(300px, 0, 0);
   }
 
   to {
@@ -372,7 +324,7 @@
 }
 
 %anmSmallLeftOut {
-    animation-duration: .8s;
+    animation-duration: .5s;
     animation-fill-mode: both;
     animation-name: smallleftOut;
 }
