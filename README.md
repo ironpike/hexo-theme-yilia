@@ -6,6 +6,7 @@ hexo-theme-yilia
 * 去除了Smart Menu动画里的弹跳部分
 * 删除了会导致403错误的Report模块
 * 兼容[RealFaviconGenerator](https://realfavicongenerator.net/)生成的全设备Favicon（只需放入blog根目录下的source文件夹里即可）
+* 去除了多说和网易云跟帖，添加了来必力
 
 效果可以查看 [我的博客](https://blog.ironpike.net)。
 
