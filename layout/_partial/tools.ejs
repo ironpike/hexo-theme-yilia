@@ -1,5 +1,6 @@
 <%
   var hasInnerArchive = theme.smart_menu.innerArchive
+  var hasCategories = theme.smart_menu.categories
   var hasFriends = theme.smart_menu.friends
   var hasAboutme = theme.smart_menu.aboutme
 %>
@@ -81,6 +82,21 @@
             </p>
           </li>
         </ul>
+    	</section>
+    <%}%>
+
+    <%if(hasCategories){%>
+    	<section class="tools-section tools-section-categories" q-show="categories">
+        <div class="widget category-list tagcloud">
+          <ul class="article-category-list">
+            <% site.categories.forEach(function(category, i){ %> 
+              <li class="article-category-list-item">
+                <a href="<%- url_for('/categories/' + category.name) %>" class="color<%= category.name.length % 5 + 1 %>"><%-category.name%></a>
+              </li>
+            <% }) %>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
     	</section>
     <%}%>
 

@@ -195,6 +195,21 @@
         }
     }
 
+    .tools-section-categories {
+        padding-top: 30px;
+        .category-list {
+            text-align: center;
+            position: relative;
+            .article-category-list {
+                @extend %trans;
+                margin: 15px 10px 0;
+                padding: 10px;
+                a {
+                    float: none;
+                }
+            }
+        }
+    }
     .tools-section-friends {
         padding-top: 30px;
     }

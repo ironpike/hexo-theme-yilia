@@ -33,6 +33,7 @@ function init() {
 			isShow: 0,
 			innerArchive: false,
 			friends: false,
+			categories: false,
 			aboutme: false,
 			items: [],
 			jsonFail: false,
@@ -62,6 +63,7 @@ function init() {
   				// friends: '友情链接'
   				// aboutme: '关于我'
   				app.$set('innerArchive', false)
+  				app.$set('categories', false)
   				app.$set('friends', false)
   				app.$set('aboutme', false)
   				app.$set(type, true)
@@ -182,6 +184,7 @@ function init() {
 		$em.onclick = (e) => {
 			e.stopPropagation()
 			app.$set('innerArchive', true)
+			app.$set('categories', false)
 			app.$set('friends', false)
 			app.$set('aboutme', false)
 			app.$set('isShow', true)

@@ -113,6 +113,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
+  categories: '分类'
   friends: '友链'
   aboutme: '关于我'
 
