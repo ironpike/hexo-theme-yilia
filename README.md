@@ -7,6 +7,8 @@ hexo-theme-yilia
 * 删除了会导致403错误的Report模块
 * 兼容[RealFaviconGenerator](https://realfavicongenerator.net/)生成的全设备Favicon（只需放入blog根目录下的source文件夹里即可）
 * 去除了多说和网易云跟帖，添加了来必力
+* 去除了背景动效
+* 修改了一些颜色和样式
 
 效果可以查看 [我的博客](https://blog.ironpike.net)。
 

@@ -22,7 +22,7 @@
 .jump-container {
     &:hover {
         .icon-back {
-            background: rgba(36, 193, 246, 0.9);
+            background: rgba(61, 73, 91, 0.9);
         }
     }
 }
@@ -61,8 +61,8 @@
         text-align: center;
         display: block;
         &:hover {
-            background: #24c1f6;
-            color: #24c1f6;
+            background: #3d495b;
+            color: #3d495b;
         }
     }
 }
@@ -72,7 +72,7 @@
     margin-top: 10px;
     transition: 0.3s;
     &:hover {
-        background: rgba(36, 193, 246, 0.9);
+        background: rgba(61, 73, 91, 0.9);
     }
     .icon-font {
         font-size: 22px;

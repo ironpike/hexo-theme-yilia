@@ -47,7 +47,6 @@ html, body, #container {
 		@extend %anmLeftIn;
 		.article {
 			@extend %trans;
-			background: rgba(255,255,255,.3);
 		}
 	}
 	&.hide {
